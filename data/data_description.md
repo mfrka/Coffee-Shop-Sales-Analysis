@@ -3,14 +3,11 @@
 ## Sumber Data
 Kumpulan data yang digunakan dalam proyek ini disediakan sebagai bagian dari program pelatihan Analis Data **TutorMy**.
 
-## Tujuan Analisis
-Dalam project ini, difokuskan utnuk menjawab beberapa pertanyaan bisnis utama, antara lain:
-
-- Produk apa yang memiliki jumlah penjualan terbanyak?
-- Kategori produk mana yang menghasilkan pendapatan tertinggi?
-- Bagaimana tren penjualan berdasarkan: Hari dalam seminggu serta Jam transaksi
-- Berapa total dan rata-rata pendapatan harian?
-- Apakah terdapat hari tertentu dengan volume transaksi yang lebih tinggi?
+## Tujuan Penggunaan Data
+Data ini digunakan untuk keperluan:
+- Pembelajaran
+- Analisis data teks
+- Penyusunan portofolio pribadi
 
 ## Struktur Variabel
 Secara umum, dataset memiliki struktur sebagai berikut:
