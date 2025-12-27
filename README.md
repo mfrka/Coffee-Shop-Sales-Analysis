@@ -2,7 +2,7 @@
 
 ## Deskripsi Singkat
 
-Proyek ini merupakan analisis penjualan **Coffee Shop** menggunakan **SQL** untuk mengidentifikasi produk unggulan serta adanya pola penjualan berdasarkan waktu. Proyek ini dibuat untuk tujuan pendidikan dan sebagai bagian dari portofolio, serta merupakan **eksplorasi data** yang dilakukan dengan **SQL**. Analisis dilakukan dengan tahapan **Data Understanding**, **Exploratory Data Analysis**, dan terakhir **Business-Oriented Query**.
+Proyek ini merupakan analisis penjualan Coffee Shop menggunakan SQL untuk mengidentifikasi produk unggulan serta adanya pola penjualan berdasarkan waktu. Proyek ini dibuat untuk tujuan pendidikan dan sebagai bagian dari portofolio, serta merupakan eksplorasi data yang dilakukan dengan SQL. Analisis dilakukan dengan tahapan Data Understanding, Exploratory Data Analysis, dan terakhir Business-Oriented Query.
 
 ## Tujuan Analisis
 
@@ -16,7 +16,7 @@ Dalam project ini, difokuskan utnuk menjawab beberapa pertanyaan bisnis utama, a
 
 ## Sturktur Data
 
-Dataset yang digunakan berasal dari pelatihan **Data Analyst** yang di adakan **TutorMy** dan tergabung dalam satu table utama yaitu **Penjualan**.
+Dataset yang digunakan berasal dari pelatihan Data Analyst yang di adakan TutorMy dan tergabung dalam satu table utama yaitu Penjualan.
 Struktur data:
 
 - ID_Transaksi : ID unik Transaksi
@@ -50,6 +50,28 @@ Adapun tahapan analisis dimulai dengan:
    - Menggunakan GROUP BY, ORDER BY, dan HAVING
 
 ## Temuan Utama
-![Proporsi](images/Jumlah_baris_data.png)
-Pada proses **Data Understanding** dilakukan pemeriksaan awal dengan menghitung jumlah baris data, dimana berdasarkan hasil pemeriksaan diperoleh baris pada data yang digunakan berjumlah 149,116 baris data. 
+
+![Proporsi](images/Produk_dengan_penjualan_terbanyak.png)
+
+Secara umum, penjualan didominasi oleh produk Tea dan Coffee. Coffee menjadi produk yang paling sering terjual dengan total 89.250 unit, disusul Tea sebanyak 69.737 unit, sementara produk lainnya menunjukkan volume penjualan yang relatif jauh lebih rendah.
+
+![Proporsi](images/Produk_dengan_pendapatan_tertinggi.png)
+
+Dari sisi nilai penjualan, Coffee juga memberikan kontribusi terbesar dengan total pendapatan 269.952,45, diikuti oleh Tea sebesar 196.405,95, menegaskan peran kedua produk ini sebagai penggerak utama penjualan.
+
+![Proporsi](images/Jam_penjualan_tertinggi.png)
+
+Dari pola waktu, aktivitas penjualan cenderung meningkat pada pagi hari, khususnya mulai jam 8 hingga mencapai puncaknya pada jam 10, dengan total pendapatan tertinggi sebesar 88.673,39.
+
+![Proporsi](images/Tren_per_hari_dalam_satu_minggu_secara_keseluruhan.png)
+
+Sementara itu, berdasarkan tren penjualan harian dalam satu minggu, secara keseluruhan transaksi paling tinggi terjadi pada hari Senin dan Jumat. Hari Senin mencatat pendapatan tertinggi sebesar 101.677,28, disusul Jumat dengan 101.373,00, yang menunjukkan bahwa penjualan cenderung lebih ramai di awal dan menjelang akhir minggu.
+
+## Kesimpulan 
+
+Pola penjualan menunjukkan bahwa aktivitas pelanggan meningkat pada jam-jam tertentu, khususnya pada pagi hari antara pukul 8 hingga 10, yang kemungkinan dipengaruhi oleh jam operasional dan kebiasaan konsumsi pelanggan sebelum memulai aktivitas. Selain itu, terdapat perbedaan tingkat transaksi antar hari, di mana hari Senin dan Jumat mencatat penjualan lebih tinggi, yang diduga berkaitan dengan awal aktivitas kerja di awal minggu serta meningkatnya mobilitas menjelang akhir minggu. Dari sisi produk, penjualan tidak tersebar secara merata karena Tea dan Coffee menjadi produk unggulan yang lebih diminati pelanggan, sehingga mendominasi baik dari segi volume maupun pendapatan.
+
+## Rekomendasi Bisnis 
+
+Berdasarkan hasil analisis, Coffee Shop disarankan untuk memaksimalkan stok dan kesiapan operasional pada hari serta jam dengan volume transaksi tertinggi agar potensi penjualan tidak terlewat. Selain itu, produk dengan performa penjualan rendah perlu dievaluasi lebih lanjut, baik melalui strategi promosi, penyesuaian harga, maupun pengurangan varian produk agar penawaran lebih efektif dan efisien.
 
