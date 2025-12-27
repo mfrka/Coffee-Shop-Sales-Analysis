@@ -4,7 +4,6 @@ use Coffee_shop;
 select * from Coffee_shop.Penjualan;
 describe penjualan;
 
-
 -- Perubahan nama tabel, kolom dan lain sebagainya
 alter table coffee_shop_sales_revenue rename to Penjualan;
 alter table Penjualan 
